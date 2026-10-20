@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Concentric Energy Ring -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#22D3EE"
+        android:fillColor="#00000000" />
+
+    <!-- Segmented Reactor Ring Outer -->
+    <path
+        android:pathData="M54,30 A24,24 0 1,0 54,78 A24,24 0 1,0 54,30 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#0284C7"
+        android:fillColor="#00000000" />
+
+    <!-- 10 Reactor Power Cells/Nodes around the perimeter -->
+    <!-- Cell 0 (Top) -->
+    <path android:pathData="M52,30 L56,30 L55,35 L53,35 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 1 -->
+    <path android:pathData="M67,34 L70,37 L67,41 L64,38 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 2 -->
+    <path android:pathData="M77,46 L78,50 L73,51 L72,47 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 3 -->
+    <path android:pathData="M78,58 L77,62 L72,61 L73,57 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 4 -->
+    <path android:pathData="M70,71 L67,74 L64,70 L67,67 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 5 (Bottom) -->
+    <path android:pathData="M56,78 L52,78 L53,73 L55,73 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 6 -->
+    <path android:pathData="M41,74 L38,71 L41,67 L44,70 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 7 -->
+    <path android:pathData="M31,62 L30,58 L35,57 L36,61 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 8 -->
+    <path android:pathData="M30,50 L31,46 L36,47 L35,51 Z" android:fillColor="#38BDF8" />
+    <!-- Cell 9 -->
+    <path android:pathData="M38,37 L41,34 L44,38 L41,41 Z" android:fillColor="#38BDF8" />
+
+    <!-- Mid Glow Core Ring -->
+    <path
+        android:pathData="M54,38 A16,16 0 1,0 54,70 A16,16 0 1,0 54,38 Z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#67E8F9"
+        android:fillColor="#082F49" />
+
+    <!-- Inner Triangular Core Frame (Iconic Arc Reactor geometry) -->
+    <path
+        android:pathData="M54,42 L65,61 L43,61 Z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#F59E0B"
+        android:fillColor="#00000000" />
+
+    <!-- Central Fusion Core Pulse Dot -->
+    <path
+        android:pathData="M54,49 A5,5 0 1,0 54,59 A5,5 0 1,0 54,49 Z"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M54,47 A7,7 0 1,0 54,61 A7,7 0 1,0 54,47 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- Crosshair Target lines -->
+    <path
+        android:pathData="M54,22 L54,26 M54,82 L54,86 M22,54 L26,54 M82,54 L86,54"
+        android:strokeWidth="1.5"
+        android:strokeColor="#38BDF8" />
+</vector>
